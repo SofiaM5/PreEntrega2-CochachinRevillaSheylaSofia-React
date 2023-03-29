@@ -6,8 +6,8 @@
 
 .cardItem{
     
-    width: 220px;
-    height: 420px;
+    width: 250px;
+    height: 470px;
     padding: 10px;
     margin: 20px;
     display: flex;
@@ -21,10 +21,12 @@
 .cardItem .cardImg{
     display: flex;
     justify-content: center;
+    margin: 5px;
 }
 
 .cardItem .cardImg img{
     width: 100%;
+    height: 100%;
 }
 
 /*descripcion*/
@@ -45,6 +47,7 @@
 .cardDescription .cant{
     color: black;
     font-size: 10px;
+    height: 5px;
 }
 
 .cardDescription .precio{
