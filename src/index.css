@@ -55,6 +55,7 @@ header .containerItemList ul li{
 header .containerCart{
   width: 5%;
   height: 100%;
+  margin-right: 30px;
   display: flex;
   justify-content: flex-start;
   align-items: center;

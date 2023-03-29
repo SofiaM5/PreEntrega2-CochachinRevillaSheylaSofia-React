@@ -8,27 +8,28 @@ const ContainerCardItems = () =>{
     const [ datos, setDatos] = useState([]);
 
     useEffect(() => {
-        FetchSimulation(productos, 3000)
+        FetchSimulation(productos, 2000)
         .then(resp => setDatos(resp))
         .catch(error => console.log(error))
     },[])
 
     return(
-        <>
+        <div className="containerCardItems">
             {
-                datos.map((products) =>(
+                datos.map((product) =>(
                     <CardItem
-                        key={products.id}
-                        title={products.title}
-                        cantidad={products.stock}
-                        precio={products.price}
+                        key={product.id}
+                        imagen={product.imageProduct.firtsImage}
+                        title={product.title}
+                        cantidad={product.stock}
+                        precio={product.price}
                     
                     />
                 ))
 
             }
         
-        </>
+        </div>
     )
 }
 
