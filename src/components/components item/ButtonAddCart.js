@@ -1,8 +1,17 @@
-import cart from "../../img/cart.png"
-const ButtonAddCart = () => {
+import { useContext } from "react";
+import { listCartContext } from "./providerContextoListCart";
+
+const ButtonAddCart = ( {id, svg} ) => {
+    
+    let {addProduct } = useContext(listCartContext)
+
+    const handlerClick = () => { 
+        addProduct(id)
+    }
+    
     return(
-        <button id="AddCart">
-            <img src={cart} alt="add"></img>
+        <button id="addCart" onClick={handlerClick}>
+            <img src={svg} alt="add"></img>
         </button>
     )
 }

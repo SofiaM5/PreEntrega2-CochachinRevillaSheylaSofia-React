@@ -3,24 +3,21 @@ const Description = (props) => {
         <div className="cardDescription">
             <h3 className="title">
                 {props.title}
-
             </h3>
 
             <div className="description">
-
-                <span className="descriptionTitle">Descripcion: </span>
+                <span className="descriptionTitle">Descripcion:</span>
                 <p className="parrafo">
                     {props.parrafo}
                 </p>
-
             </div>
 
             <span className="cant">
-                cantidad: {props.cantidad}
+                Cantidad: {props.cantidad} unidades
             </span>
 
             <span className="precio">
-                {props.precio}PEN
+                ${props.precio}
             </span>
         </div>
     )

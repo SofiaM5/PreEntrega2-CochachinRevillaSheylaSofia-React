@@ -76,7 +76,7 @@
     background-color: #f65e0e;
 }
 
-.buttons #AddCart{
+.buttons #addCart{
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -88,7 +88,7 @@
     
 }
 
-.buttons #AddCart img{
+.buttons #addCart img{
     width: 25px;
     height: 20px;
 }
