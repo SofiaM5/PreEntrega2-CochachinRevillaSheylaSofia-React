@@ -12,10 +12,10 @@ const NavBar = () => {
 
       <div className="containerItemList">
         <ItemList
-          itemUno = "Inicio"
-          itemDos = "Nosotros"
-          itemTres = "Servicios"
-          itemCuatro = "Contactos"
+          itemUno = "Polos"
+          itemDos = "Pantalones"
+          itemTres = "Casacas"
+          itemCuatro = "Gorras"
         />
       </div>
 

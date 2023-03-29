@@ -46,6 +46,7 @@ header .containerItemList ul{
 }
 
 header .containerItemList ul li{
+  list-style: none;
   margin: 10px;
   color: black;
 }

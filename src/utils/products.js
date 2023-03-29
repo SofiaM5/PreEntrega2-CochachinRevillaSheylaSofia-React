@@ -5,7 +5,7 @@ const productos = [
         title: "Polo Brooklyn",
         Description: "Polo de algodón son frescos y muy recomendables para cualquier actividad",
         stock: 15,
-        type: "Polo",
+        type: "Polos",
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/ea/28/42/ea28427e28a4fba9a29738058ff0f850.jpg"
         }, 
@@ -17,7 +17,7 @@ const productos = [
         title: "Polo Smile",
         Description: "Polo de algodón son frescos y muy recomendables para cualquier actividad",
         stock: 15,
-        type: "Polo", 
+        type: "Polos", 
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/1f/8d/7b/1f8d7bb4f22ec6dfb1e672ef7be2fb2a.jpg"
         },
@@ -29,7 +29,7 @@ const productos = [
         title: "Polo Feelings",
         Description: "Polo de algodón son frescos y muy recomendables para cualquier actividad",
         stock: 15,
-        type: "Polo", 
+        type: "Polos", 
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/30/45/bf/3045bf08fd50ab80d4cb1e94212bbdf8.jpg"
         },
@@ -41,7 +41,7 @@ const productos = [
         title: "Polo Los Angeles",
         Description: "Polo de algodón son frescos y muy recomendables para cualquier actividad",
         stock: 15,
-        type: "Polo", 
+        type: "Polos", 
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/84/5c/d7/845cd7600dcd44d44ae2a02736d7d24c.jpg"
         },
@@ -53,7 +53,7 @@ const productos = [
         title: "Polo Brave",
         Description: "Polo de algodón son frescos y muy recomendables para cualquier actividad",
         stock: 15,
-        type: "Polo", 
+        type: "Polos", 
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/17/00/f5/1700f50ebd9c472bd17931b64aa52374.jpg"
         },
@@ -78,7 +78,7 @@ const productos = [
         title: "Pantalon cargo Sofia",
         Description: "Pantalones por lo general se deben usar para looks casuales o deportivos (siendo útiles para algunos ciclistas). Su look suelto y algunos materiales hacen que sea casi imposible usarlo en cualquier entorno formal, o semi-formal",
         stock: 15,
-        type: "pantalones",
+        type: "Pantalones",
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/5d/2a/7a/5d2a7a80e197ca8cef1d2bf270dddbb4.jpg"
         }, 
@@ -90,7 +90,7 @@ const productos = [
         title: "Pantalon cargo Alejo",
         Description: "Pantalones por lo general se deben usar para looks casuales o deportivos (siendo útiles para algunos ciclistas). Su look suelto y algunos materiales hacen que sea casi imposible usarlo en cualquier entorno formal, o semi-formal",
         stock: 15,
-        type: "pantalones",
+        type: "Pantalones",
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/5b/46/4b/5b464bc6e26e21be3b5af2591a2f36fa.jpg"
         }, 
@@ -102,7 +102,7 @@ const productos = [
         title: "Cargo Sofia",
         Description: "Pantalones por lo general se deben usar para looks casuales o deportivos (siendo útiles para algunos ciclistas). Su look suelto y algunos materiales hacen que sea casi imposible usarlo en cualquier entorno formal, o semi-formal",
         stock: 15,
-        type: "pantalones",
+        type: "Pantalones",
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/5d/2a/7a/5d2a7a80e197ca8cef1d2bf270dddbb4.jpg"
         }, 
@@ -114,7 +114,7 @@ const productos = [
         title: "Cargo Sofia",
         Description: "Pantalones por lo general se deben usar para looks casuales o deportivos (siendo útiles para algunos ciclistas). Su look suelto y algunos materiales hacen que sea casi imposible usarlo en cualquier entorno formal, o semi-formal",
         stock: 15,
-        type: "pantalones",
+        type: "Pantalones",
         imageProduct: {
             firtsImage: "https://i.pinimg.com/564x/5d/2a/7a/5d2a7a80e197ca8cef1d2bf270dddbb4.jpg"
         }, 
